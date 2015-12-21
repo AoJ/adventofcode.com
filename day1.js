@@ -10,7 +10,7 @@ var result = input
 	.filter(function(v){ return v })
 	.reduce(function(pos, v, i) { return pos + v})
 
-console.log("part 1 =", result)
+console.log(result)
 
 
 
@@ -21,4 +21,4 @@ input
 	.filter(function(v){ return v })
 	.reduce(function(pos, v, i) { if(pos === -1 && result === 0) { result = i } return pos + v})
 
-console.log("part 2 =", result)
+console.log(result)
